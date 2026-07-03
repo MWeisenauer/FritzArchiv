@@ -1,21 +1,23 @@
 //
-//  FritzBackupApp.swift
-//  FritzBackup
+//  FritzArchivApp.swift
+//  FritzArchiv
 //
 //  Created by Markus Weisenauer on 03.07.26.
 //
 
 import SwiftUI
-import CoreData
 
 @main
-struct FritzBackupApp: App {
-    let persistenceController = PersistenceController.shared
+struct FritzArchivApp: App {
+    @State private var manager = BackupManager()
 
     var body: some Scene {
         WindowGroup {
             ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+                .environment(manager)
+        }
+        .commands {
+            CommandGroup(replacing: .newItem) { }
         }
     }
 }
