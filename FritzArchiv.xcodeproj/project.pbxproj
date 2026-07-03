@@ -11,9 +11,9 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		28DC25412FF7C27B00A8BB52 /* FritzBackup */ = {
+		28DC25412FF7C27B00A8BB52 /* FritzArchiv */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = FritzBackup;
+			path = FritzArchiv;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -32,7 +32,7 @@
 		28DC25362FF7C27B00A8BB52 = {
 			isa = PBXGroup;
 			children = (
-				28DC25412FF7C27B00A8BB52 /* FritzBackup */,
+				28DC25412FF7C27B00A8BB52 /* FritzArchiv */,
 				28DC25402FF7C27B00A8BB52 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -61,7 +61,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				28DC25412FF7C27B00A8BB52 /* FritzBackup */,
+				28DC25412FF7C27B00A8BB52 /* FritzArchiv */,
 			);
 			name = FritzArchiv;
 			packageProductDependencies = (
@@ -85,7 +85,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 28DC253A2FF7C27B00A8BB52 /* Build configuration list for PBXProject "FritzBackup" */;
+			buildConfigurationList = 28DC253A2FF7C27B00A8BB52 /* Build configuration list for PBXProject "FritzArchiv" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -303,7 +303,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		28DC253A2FF7C27B00A8BB52 /* Build configuration list for PBXProject "FritzBackup" */ = {
+		28DC253A2FF7C27B00A8BB52 /* Build configuration list for PBXProject "FritzArchiv" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				28DC254D2FF7C27B00A8BB52 /* Debug */,
